@@ -1,0 +1,118 @@
+h3 {
+  
+  font-family: 'Arial', sans-serif;
+ 
+  font-weight: 700;
+}
+
+
+
+ul.navigation {
+  
+  list-style-type: none;
+
+  margin: 0;
+ 
+  padding: 0 ;
+
+  opacity: 1;
+  filter: alpha(opacity=30);
+ 
+  width: 100%;
+  height: 57px;
+
+  overflow: hidden;
+}
+
+
+.logoimage{
+
+  position: relative;
+  left:2%;
+  top: 0;
+  max-height: 100px;
+  width: auto;
+  }
+
+
+
+
+.navigation li {
+  display: inline-inline-block;
+  float: right;
+}
+
+.navigation li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+ 
+  text-decoration: none;
+
+
+}
+
+
+.navigation li a:hover{
+  background-color: #8D40A1;
+
+  
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+div.activities{
+
+  border: 2px solid;
+
+  padding: 2em;
+
+  width: auto;
+
+  margin: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.activities p{
+  text-align: center;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 10px;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555; }
+
+
+
+
+  #wrapper {
+   
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  #sidebar-wrapper {
+    width: 250px;
+  }

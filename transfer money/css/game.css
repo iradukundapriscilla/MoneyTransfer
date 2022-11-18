@@ -1,0 +1,106 @@
+
+
+  
+  body
+  {
+   font-family: Palatino, Helvetica,Arial,Sans-Serif;
+   font-size: small;
+   background-image: url(../img/asset/cccc.png);
+   background-size:cover;
+  }
+  
+  
+ 
+ /* 
+  a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s ease;
+  }
+  a:hover {
+    color: #179b77;
+  }*/
+
+  
+  .button {
+  width:200px;
+  height:45px;
+  font-size:16px;
+  font-weight:bold;
+  background-color:#B43104;
+  color:white;
+  border:none;
+  box-shadow:0px 3px 0px 0px #8A2908;
+  border-radius:30px;
+  cursor: pointer;
+  align-items: flex-start;
+  margin-bottom: 50;
+  }
+  
+  
+  .button:hover, .button:focus {
+    background-color: #91f70b;
+  }
+  
+  
+  .button-block {
+    display: block;
+    width: 100%;
+    top: 20px;
+  
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .container {
+
+    float: left;
+
+    width: 150px;
+
+    margin: 0px;
+
+    padding: 0px; 
+
+    background-color: gray;
+
+    font-size: .9em;
+
+}
+
+
+
+.container a {
+
+    display: block;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    background-color: gray;
+
+    margin: 0px;
+
+    padding: 5px;
+}
+
+
+
+.container a:hover {
+
+    background-color: #6699FF;
+
+}
+  
+  
+  
+  
+  
+  
+  
+    
